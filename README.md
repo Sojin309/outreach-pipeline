@@ -114,10 +114,3 @@ outreach_pipeline/
 - **Safety checkpoint** → explicit confirm before any email fires
 
 ---
-
-## Interview Tips
-
-- Walk through each `stages/` file — one file = one stage = one API
-- The `main.py` orchestrates, stages are pure functions: input → output
-- Rate limit handling is in each stage individually
-- The safety checkpoint is in `main.py` before calling `stage4_brevo`
